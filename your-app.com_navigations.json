@@ -1,0 +1,1280 @@
+{
+  "generated_at": "2026-06-17T14:23:39.379965",
+  "start_url": "https://your-app.com",
+  "pages_crawled": 7,
+  "total_navigations": 123,
+  "pages": [
+    {
+      "url": "https://gemini.google.com",
+      "title": "Google Gemini",
+      "actions": [
+        {
+          "label": "Skip to main content",
+          "category": "Other",
+          "role": "link",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Skip to main content')",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "Open sidebar",
+          "category": "Navigation",
+          "role": "button",
+          "testid": "side-nav-sparkle-button",
+          "href": null,
+          "selector": "[data-test-id='side-nav-sparkle-button'], [data-testid='side-nav-sparkle-button']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "Upgrade",
+          "category": "Menu/More",
+          "role": "link",
+          "testid": "bard-g1-dynamic-upsell-menu-button",
+          "href": null,
+          "selector": "[data-test-id='bard-g1-dynamic-upsell-menu-button'], [data-testid='bard-g1-dynamic-upsell-menu-button']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "Temporary chat",
+          "category": "Other",
+          "role": "button",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Temporary chat']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "New chat",
+          "category": "Create/New",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/app",
+          "selector": "[aria-label='New chat']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "Search chats",
+          "category": "Search",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/search",
+          "selector": "[aria-label='Search chats']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "Images",
+          "category": "Other",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/images",
+          "selector": "[aria-label='Images']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "Library",
+          "category": "Other",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/library",
+          "selector": "[aria-label='Library']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "Google Account: Ram (tester.1234.new@gmail.com)",
+          "category": "Create/New",
+          "role": "a",
+          "testid": null,
+          "href": "https://accounts.google.com/SignOutOptions?continue=https://gemini.google.com",
+          "selector": "[aria-label='Google Account: Ram (tester.1234.new@gmail.com)']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "Settings",
+          "category": "Settings",
+          "role": "button",
+          "testid": "mavatar-footer-settings-button",
+          "href": null,
+          "selector": "[data-test-id='mavatar-footer-settings-button'], [data-testid='mavatar-footer-settings-button']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "mobile-settings-soft-badge",
+          "category": "Settings",
+          "role": "xap-count-badge",
+          "testid": "mobile-settings-soft-badge",
+          "href": null,
+          "selector": "[data-test-id='mobile-settings-soft-badge'], [data-testid='mobile-settings-soft-badge']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "Enter a prompt for Gemini",
+          "category": "Other",
+          "role": "textbox",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Enter a prompt for Gemini']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "Upload and tools",
+          "category": "Upload/Attach",
+          "role": "button",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Upload and tools']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "Open mode picker, currently Flash-Lite",
+          "category": "Menu/More",
+          "role": "button",
+          "testid": "bard-mode-menu-button",
+          "href": null,
+          "selector": "[data-test-id='bard-mode-menu-button'], [data-testid='bard-mode-menu-button']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        },
+        {
+          "label": "Microphone",
+          "category": "Other",
+          "role": "button",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Microphone']",
+          "path": "https://gemini.google.com",
+          "via": "page"
+        }
+      ]
+    },
+    {
+      "url": "https://gemini.google.com/app",
+      "title": "Google Gemini",
+      "actions": [
+        {
+          "label": "Skip to main content",
+          "category": "Other",
+          "role": "link",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Skip to main content')",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "Open sidebar",
+          "category": "Navigation",
+          "role": "button",
+          "testid": "side-nav-sparkle-button",
+          "href": null,
+          "selector": "[data-test-id='side-nav-sparkle-button'], [data-testid='side-nav-sparkle-button']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "Upgrade",
+          "category": "Menu/More",
+          "role": "link",
+          "testid": "bard-g1-dynamic-upsell-menu-button",
+          "href": null,
+          "selector": "[data-test-id='bard-g1-dynamic-upsell-menu-button'], [data-testid='bard-g1-dynamic-upsell-menu-button']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "Temporary chat",
+          "category": "Other",
+          "role": "button",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Temporary chat']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "New chat",
+          "category": "Create/New",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/app",
+          "selector": "[aria-label='New chat']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "Search chats",
+          "category": "Search",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/search",
+          "selector": "[aria-label='Search chats']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "Images",
+          "category": "Other",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/images",
+          "selector": "[aria-label='Images']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "Library",
+          "category": "Other",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/library",
+          "selector": "[aria-label='Library']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "Google Account: Ram (tester.1234.new@gmail.com)",
+          "category": "Create/New",
+          "role": "a",
+          "testid": null,
+          "href": "https://accounts.google.com/SignOutOptions?continue=https://gemini.google.com",
+          "selector": "[aria-label='Google Account: Ram (tester.1234.new@gmail.com)']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "Settings",
+          "category": "Settings",
+          "role": "button",
+          "testid": "mavatar-footer-settings-button",
+          "href": null,
+          "selector": "[data-test-id='mavatar-footer-settings-button'], [data-testid='mavatar-footer-settings-button']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "mobile-settings-soft-badge",
+          "category": "Settings",
+          "role": "xap-count-badge",
+          "testid": "mobile-settings-soft-badge",
+          "href": null,
+          "selector": "[data-test-id='mobile-settings-soft-badge'], [data-testid='mobile-settings-soft-badge']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "Enter a prompt for Gemini",
+          "category": "Other",
+          "role": "textbox",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Enter a prompt for Gemini']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "Upload and tools",
+          "category": "Upload/Attach",
+          "role": "button",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Upload and tools']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "Open mode picker, currently Flash-Lite",
+          "category": "Menu/More",
+          "role": "button",
+          "testid": "bard-mode-menu-button",
+          "href": null,
+          "selector": "[data-test-id='bard-mode-menu-button'], [data-testid='bard-mode-menu-button']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "Microphone",
+          "category": "Other",
+          "role": "button",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Microphone']",
+          "path": "https://gemini.google.com/app",
+          "via": "page"
+        },
+        {
+          "label": "bard-upsell-menu-button-icon",
+          "category": "Menu/More",
+          "role": "img",
+          "testid": "bard-upsell-menu-button-icon",
+          "href": null,
+          "selector": "[data-test-id='bard-upsell-menu-button-icon'], [data-testid='bard-upsell-menu-button-icon']",
+          "path": "https://gemini.google.com/app -> open 'Upgrade'",
+          "via": "menu:Upgrade"
+        },
+        {
+          "label": "Flash-Lite",
+          "category": "Other",
+          "role": "div",
+          "testid": "logo-pill-label-container",
+          "href": null,
+          "selector": "[data-test-id='logo-pill-label-container'], [data-testid='logo-pill-label-container']",
+          "path": "https://gemini.google.com/app -> open 'Open mode picker, currently Flash-Lite'",
+          "via": "menu:Open mode picker, currently Flash-Lite"
+        },
+        {
+          "label": "3.1 Flash-Lite Fastest answers New",
+          "category": "Create/New",
+          "role": "menuitem",
+          "testid": "bard-mode-option-cf41b0e0dd7d53e5",
+          "href": null,
+          "selector": "[data-test-id='bard-mode-option-cf41b0e0dd7d53e5'], [data-testid='bard-mode-option-cf41b0e0dd7d53e5']",
+          "path": "https://gemini.google.com/app -> open 'Open mode picker, currently Flash-Lite'",
+          "via": "menu:Open mode picker, currently Flash-Lite"
+        },
+        {
+          "label": "3.5 Flash All-around help New",
+          "category": "Create/New",
+          "role": "menuitem",
+          "testid": "bard-mode-option-fbb127bbb056c959",
+          "href": null,
+          "selector": "[data-test-id='bard-mode-option-fbb127bbb056c959'], [data-testid='bard-mode-option-fbb127bbb056c959']",
+          "path": "https://gemini.google.com/app -> open 'Open mode picker, currently Flash-Lite'",
+          "via": "menu:Open mode picker, currently Flash-Lite"
+        },
+        {
+          "label": "3.1 Pro Advanced maths and code",
+          "category": "Other",
+          "role": "menuitem",
+          "testid": "bard-mode-option-9d8ca3786ebdfbea",
+          "href": null,
+          "selector": "[data-test-id='bard-mode-option-9d8ca3786ebdfbea'], [data-testid='bard-mode-option-9d8ca3786ebdfbea']",
+          "path": "https://gemini.google.com/app -> open 'Open mode picker, currently Flash-Lite'",
+          "via": "menu:Open mode picker, currently Flash-Lite"
+        },
+        {
+          "label": "Thinking level Standard",
+          "category": "Other",
+          "role": "menuitem",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Thinking level Standard')",
+          "path": "https://gemini.google.com/app -> open 'Open mode picker, currently Flash-Lite'",
+          "via": "menu:Open mode picker, currently Flash-Lite"
+        }
+      ]
+    },
+    {
+      "url": "https://gemini.google.com/app/download",
+      "title": "Google Gemini",
+      "actions": [
+        {
+          "label": "Skip to main content",
+          "category": "Other",
+          "role": "link",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Skip to main content')",
+          "path": "https://gemini.google.com/app/download",
+          "via": "page"
+        },
+        {
+          "label": "next-button",
+          "category": "Navigation",
+          "role": "button",
+          "testid": "next-button",
+          "href": null,
+          "selector": "[data-test-id='next-button'], [data-testid='next-button']",
+          "path": "https://gemini.google.com/app/download",
+          "via": "page"
+        },
+        {
+          "label": "Privacy and Terms Opens in a new window",
+          "category": "Create/New",
+          "role": "a",
+          "testid": null,
+          "href": "https://policies.google.com/",
+          "selector": "a:has-text('Privacy and Terms Opens in a new window')",
+          "path": "https://gemini.google.com/app/download",
+          "via": "page"
+        }
+      ]
+    },
+    {
+      "url": "https://gemini.google.com/images",
+      "title": "‎Google Gemini",
+      "actions": [
+        {
+          "label": "Skip to main content",
+          "category": "Other",
+          "role": "link",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Skip to main content')",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Open sidebar",
+          "category": "Navigation",
+          "role": "button",
+          "testid": "side-nav-sparkle-button",
+          "href": null,
+          "selector": "[data-test-id='side-nav-sparkle-button'], [data-testid='side-nav-sparkle-button']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Upgrade",
+          "category": "Menu/More",
+          "role": "link",
+          "testid": "bard-g1-dynamic-upsell-menu-button",
+          "href": null,
+          "selector": "[data-test-id='bard-g1-dynamic-upsell-menu-button'], [data-testid='bard-g1-dynamic-upsell-menu-button']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "New chat",
+          "category": "Create/New",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/app",
+          "selector": "[aria-label='New chat']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Search chats",
+          "category": "Search",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/search",
+          "selector": "[aria-label='Search chats']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Images",
+          "category": "Other",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/images",
+          "selector": "[aria-label='Images']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Library",
+          "category": "Other",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/library",
+          "selector": "[aria-label='Library']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Google Account: Ram (tester.1234.new@gmail.com)",
+          "category": "Create/New",
+          "role": "a",
+          "testid": null,
+          "href": "https://accounts.google.com/SignOutOptions?continue=https://gemini.google.com",
+          "selector": "[aria-label='Google Account: Ram (tester.1234.new@gmail.com)']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Settings",
+          "category": "Settings",
+          "role": "button",
+          "testid": "mavatar-footer-settings-button",
+          "href": null,
+          "selector": "[data-test-id='mavatar-footer-settings-button'], [data-testid='mavatar-footer-settings-button']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "mobile-settings-soft-badge",
+          "category": "Settings",
+          "role": "xap-count-badge",
+          "testid": "mobile-settings-soft-badge",
+          "href": null,
+          "selector": "[data-test-id='mobile-settings-soft-badge'], [data-testid='mobile-settings-soft-badge']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Enter a prompt for Gemini",
+          "category": "Other",
+          "role": "textbox",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Enter a prompt for Gemini']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Upload and tools",
+          "category": "Upload/Attach",
+          "role": "button",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Upload and tools']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Open mode picker, currently Flash-Lite",
+          "category": "Menu/More",
+          "role": "button",
+          "testid": "bard-mode-menu-button",
+          "href": null,
+          "selector": "[data-test-id='bard-mode-menu-button'], [data-testid='bard-mode-menu-button']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Microphone",
+          "category": "Other",
+          "role": "button",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Microphone']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Get in\nthe game",
+          "category": "Other",
+          "role": "button",
+          "testid": "campaign-image-card",
+          "href": null,
+          "selector": "[data-test-id='campaign-image-card'], [data-testid='campaign-image-card']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "campaign-image-card-image",
+          "category": "Other",
+          "role": "img",
+          "testid": "campaign-image-card-image",
+          "href": null,
+          "selector": "[data-test-id='campaign-image-card-image'], [data-testid='campaign-image-card-image']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "campaign-image-card-scrim",
+          "category": "Other",
+          "role": "div",
+          "testid": "campaign-image-card-scrim",
+          "href": null,
+          "selector": "[data-test-id='campaign-image-card-scrim'], [data-testid='campaign-image-card-scrim']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Get in the game",
+          "category": "Other",
+          "role": "div",
+          "testid": "campaign-image-card-text",
+          "href": null,
+          "selector": "[data-test-id='campaign-image-card-text'], [data-testid='campaign-image-card-text']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Theme park",
+          "category": "Other",
+          "role": "button",
+          "testid": "image-card",
+          "href": null,
+          "selector": "[data-test-id='image-card'], [data-testid='image-card']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "image-card-image",
+          "category": "Other",
+          "role": "img",
+          "testid": "image-card-image",
+          "href": null,
+          "selector": "[data-test-id='image-card-image'], [data-testid='image-card-image']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "image-card-scrim",
+          "category": "Other",
+          "role": "div",
+          "testid": "image-card-scrim",
+          "href": null,
+          "selector": "[data-test-id='image-card-scrim'], [data-testid='image-card-scrim']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Plushie",
+          "category": "Other",
+          "role": "button",
+          "testid": "image-card",
+          "href": null,
+          "selector": "[data-test-id='image-card'], [data-testid='image-card']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Pin",
+          "category": "Other",
+          "role": "button",
+          "testid": "image-card",
+          "href": null,
+          "selector": "[data-test-id='image-card'], [data-testid='image-card']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "See more images",
+          "category": "Menu/More",
+          "role": "button",
+          "testid": "see-more-card",
+          "href": null,
+          "selector": "[data-test-id='see-more-card'], [data-testid='see-more-card']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Figurine",
+          "category": "Other",
+          "role": "button",
+          "testid": "image-card",
+          "href": null,
+          "selector": "[data-test-id='image-card'], [data-testid='image-card']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Studio",
+          "category": "Other",
+          "role": "button",
+          "testid": "image-card",
+          "href": null,
+          "selector": "[data-test-id='image-card'], [data-testid='image-card']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Zen",
+          "category": "Other",
+          "role": "button",
+          "testid": "image-card",
+          "href": null,
+          "selector": "[data-test-id='image-card'], [data-testid='image-card']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "Bronze",
+          "category": "Other",
+          "role": "button",
+          "testid": "image-card",
+          "href": null,
+          "selector": "[data-test-id='image-card'], [data-testid='image-card']",
+          "path": "https://gemini.google.com/images",
+          "via": "page"
+        },
+        {
+          "label": "bard-upsell-menu-button-icon",
+          "category": "Menu/More",
+          "role": "img",
+          "testid": "bard-upsell-menu-button-icon",
+          "href": null,
+          "selector": "[data-test-id='bard-upsell-menu-button-icon'], [data-testid='bard-upsell-menu-button-icon']",
+          "path": "https://gemini.google.com/images -> open 'Upgrade'",
+          "via": "menu:Upgrade"
+        },
+        {
+          "label": "Deselect Images",
+          "category": "Other",
+          "role": "button",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Deselect Images']",
+          "path": "https://gemini.google.com/images -> open 'Upgrade'",
+          "via": "menu:Upgrade"
+        },
+        {
+          "label": "Deselect Images",
+          "category": "Other",
+          "role": "button",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Deselect Images']",
+          "path": "https://gemini.google.com/images -> open 'Open mode picker, currently Flash-Lite'",
+          "via": "menu:Open mode picker, currently Flash-Lite"
+        },
+        {
+          "label": "3.1 Flash-Lite Fastest answers New",
+          "category": "Create/New",
+          "role": "menuitem",
+          "testid": "bard-mode-option-cf41b0e0dd7d53e5",
+          "href": null,
+          "selector": "[data-test-id='bard-mode-option-cf41b0e0dd7d53e5'], [data-testid='bard-mode-option-cf41b0e0dd7d53e5']",
+          "path": "https://gemini.google.com/images -> open 'Open mode picker, currently Flash-Lite'",
+          "via": "menu:Open mode picker, currently Flash-Lite"
+        },
+        {
+          "label": "3.5 Flash All-around help New",
+          "category": "Create/New",
+          "role": "menuitem",
+          "testid": "bard-mode-option-fbb127bbb056c959",
+          "href": null,
+          "selector": "[data-test-id='bard-mode-option-fbb127bbb056c959'], [data-testid='bard-mode-option-fbb127bbb056c959']",
+          "path": "https://gemini.google.com/images -> open 'Open mode picker, currently Flash-Lite'",
+          "via": "menu:Open mode picker, currently Flash-Lite"
+        },
+        {
+          "label": "3.1 Pro Advanced maths and code",
+          "category": "Other",
+          "role": "menuitem",
+          "testid": "bard-mode-option-9d8ca3786ebdfbea",
+          "href": null,
+          "selector": "[data-test-id='bard-mode-option-9d8ca3786ebdfbea'], [data-testid='bard-mode-option-9d8ca3786ebdfbea']",
+          "path": "https://gemini.google.com/images -> open 'Open mode picker, currently Flash-Lite'",
+          "via": "menu:Open mode picker, currently Flash-Lite"
+        },
+        {
+          "label": "Thinking level Standard",
+          "category": "Other",
+          "role": "menuitem",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Thinking level Standard')",
+          "path": "https://gemini.google.com/images -> open 'Open mode picker, currently Flash-Lite'",
+          "via": "menu:Open mode picker, currently Flash-Lite"
+        },
+        {
+          "label": "Deselect Images",
+          "category": "Other",
+          "role": "button",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Deselect Images']",
+          "path": "https://gemini.google.com/images -> open 'See more images'",
+          "via": "menu:See more images"
+        }
+      ]
+    },
+    {
+      "url": "https://gemini.google.com/search",
+      "title": "Google Gemini",
+      "actions": [
+        {
+          "label": "Skip to main content",
+          "category": "Other",
+          "role": "link",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Skip to main content')",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Open sidebar",
+          "category": "Navigation",
+          "role": "button",
+          "testid": "side-nav-sparkle-button",
+          "href": null,
+          "selector": "[data-test-id='side-nav-sparkle-button'], [data-testid='side-nav-sparkle-button']",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Upgrade",
+          "category": "Menu/More",
+          "role": "link",
+          "testid": "bard-g1-dynamic-upsell-menu-button",
+          "href": null,
+          "selector": "[data-test-id='bard-g1-dynamic-upsell-menu-button'], [data-testid='bard-g1-dynamic-upsell-menu-button']",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "New chat",
+          "category": "Create/New",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/app",
+          "selector": "[aria-label='New chat']",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Search chats",
+          "category": "Search",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/search",
+          "selector": "[aria-label='Search chats']",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Images",
+          "category": "Other",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/images",
+          "selector": "[aria-label='Images']",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Library",
+          "category": "Other",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/library",
+          "selector": "[aria-label='Library']",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Google Account: Ram (tester.1234.new@gmail.com)",
+          "category": "Create/New",
+          "role": "a",
+          "testid": null,
+          "href": "https://accounts.google.com/SignOutOptions?continue=https://gemini.google.com",
+          "selector": "[aria-label='Google Account: Ram (tester.1234.new@gmail.com)']",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Settings",
+          "category": "Settings",
+          "role": "button",
+          "testid": "mavatar-footer-settings-button",
+          "href": null,
+          "selector": "[data-test-id='mavatar-footer-settings-button'], [data-testid='mavatar-footer-settings-button']",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "mobile-settings-soft-badge",
+          "category": "Settings",
+          "role": "xap-count-badge",
+          "testid": "mobile-settings-soft-badge",
+          "href": null,
+          "selector": "[data-test-id='mobile-settings-soft-badge'], [data-testid='mobile-settings-soft-badge']",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Successful UI Validation Test Yesterday",
+          "category": "Other",
+          "role": "option",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Successful UI Validation Test Yesterday')",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "AI Assistant Offers Help Yesterday",
+          "category": "Other",
+          "role": "option",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('AI Assistant Offers Help Yesterday')",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Chemistry 101 Study Plan Creation test 8 Jun",
+          "category": "Other",
+          "role": "option",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Chemistry 101 Study Plan Creation test 8')",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Greeting and Offer of Help 8 Jun",
+          "category": "Other",
+          "role": "option",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Greeting and Offer of Help 8 Jun')",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "File Summary and Next Steps 17 Apr",
+          "category": "Navigation",
+          "role": "option",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('File Summary and Next Steps 17 Apr')",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Ready to Dive In 16 Apr",
+          "category": "Other",
+          "role": "option",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Ready to Dive In 16 Apr')",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Greeting and Offer of Assistance 8 Apr",
+          "category": "Other",
+          "role": "option",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Greeting and Offer of Assistance 8 Apr')",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Greeting And Offer Of Help 8 Apr",
+          "category": "Other",
+          "role": "option",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Greeting And Offer Of Help 8 Apr')",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Simple Greeting and Response 18 Jul 2025",
+          "category": "Other",
+          "role": "option",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Simple Greeting and Response 18 Jul 2025')",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Chess: e4, c5. Your Turn! 17 Jul 2025",
+          "category": "Other",
+          "role": "option",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Chess: e4, c5. Your Turn! 17 Jul 2025')",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "Landing Page for Learning Robots 17 Jul 2025",
+          "category": "Other",
+          "role": "option",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Landing Page for Learning Robots 17 Jul ')",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "A Simple Greeting Exchange 17 Jul 2025",
+          "category": "Other",
+          "role": "option",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('A Simple Greeting Exchange 17 Jul 2025')",
+          "path": "https://gemini.google.com/search",
+          "via": "page"
+        },
+        {
+          "label": "bard-upsell-menu-button-icon",
+          "category": "Menu/More",
+          "role": "img",
+          "testid": "bard-upsell-menu-button-icon",
+          "href": null,
+          "selector": "[data-test-id='bard-upsell-menu-button-icon'], [data-testid='bard-upsell-menu-button-icon']",
+          "path": "https://gemini.google.com/search -> open 'Upgrade'",
+          "via": "menu:Upgrade"
+        }
+      ]
+    },
+    {
+      "url": "https://gemini.google.com/notebooks/create",
+      "title": "Google Gemini",
+      "actions": [
+        {
+          "label": "Skip to main content",
+          "category": "Other",
+          "role": "link",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Skip to main content')",
+          "path": "https://gemini.google.com/notebooks/create",
+          "via": "page"
+        },
+        {
+          "label": "Open sidebar",
+          "category": "Navigation",
+          "role": "button",
+          "testid": "side-nav-sparkle-button",
+          "href": null,
+          "selector": "[data-test-id='side-nav-sparkle-button'], [data-testid='side-nav-sparkle-button']",
+          "path": "https://gemini.google.com/notebooks/create",
+          "via": "page"
+        },
+        {
+          "label": "Upgrade",
+          "category": "Menu/More",
+          "role": "link",
+          "testid": "bard-g1-dynamic-upsell-menu-button",
+          "href": null,
+          "selector": "[data-test-id='bard-g1-dynamic-upsell-menu-button'], [data-testid='bard-g1-dynamic-upsell-menu-button']",
+          "path": "https://gemini.google.com/notebooks/create",
+          "via": "page"
+        },
+        {
+          "label": "New chat",
+          "category": "Create/New",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/app",
+          "selector": "[aria-label='New chat']",
+          "path": "https://gemini.google.com/notebooks/create",
+          "via": "page"
+        },
+        {
+          "label": "Search chats",
+          "category": "Search",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/search",
+          "selector": "[aria-label='Search chats']",
+          "path": "https://gemini.google.com/notebooks/create",
+          "via": "page"
+        },
+        {
+          "label": "Images",
+          "category": "Other",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/images",
+          "selector": "[aria-label='Images']",
+          "path": "https://gemini.google.com/notebooks/create",
+          "via": "page"
+        },
+        {
+          "label": "Library",
+          "category": "Other",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/library",
+          "selector": "[aria-label='Library']",
+          "path": "https://gemini.google.com/notebooks/create",
+          "via": "page"
+        },
+        {
+          "label": "Google Account: Ram (tester.1234.new@gmail.com)",
+          "category": "Create/New",
+          "role": "a",
+          "testid": null,
+          "href": "https://accounts.google.com/SignOutOptions?continue=https://gemini.google.com",
+          "selector": "[aria-label='Google Account: Ram (tester.1234.new@gmail.com)']",
+          "path": "https://gemini.google.com/notebooks/create",
+          "via": "page"
+        },
+        {
+          "label": "Settings",
+          "category": "Settings",
+          "role": "button",
+          "testid": "mavatar-footer-settings-button",
+          "href": null,
+          "selector": "[data-test-id='mavatar-footer-settings-button'], [data-testid='mavatar-footer-settings-button']",
+          "path": "https://gemini.google.com/notebooks/create",
+          "via": "page"
+        },
+        {
+          "label": "mobile-settings-soft-badge",
+          "category": "Settings",
+          "role": "xap-count-badge",
+          "testid": "mobile-settings-soft-badge",
+          "href": null,
+          "selector": "[data-test-id='mobile-settings-soft-badge'], [data-testid='mobile-settings-soft-badge']",
+          "path": "https://gemini.google.com/notebooks/create",
+          "via": "page"
+        },
+        {
+          "label": "Name of the notebook",
+          "category": "Other",
+          "role": "input",
+          "testid": "project-name-input",
+          "href": null,
+          "selector": "[data-test-id='project-name-input'], [data-testid='project-name-input']",
+          "path": "https://gemini.google.com/notebooks/create",
+          "via": "page"
+        },
+        {
+          "label": "bard-upsell-menu-button-icon",
+          "category": "Menu/More",
+          "role": "img",
+          "testid": "bard-upsell-menu-button-icon",
+          "href": null,
+          "selector": "[data-test-id='bard-upsell-menu-button-icon'], [data-testid='bard-upsell-menu-button-icon']",
+          "path": "https://gemini.google.com/notebooks/create -> open 'Upgrade'",
+          "via": "menu:Upgrade"
+        }
+      ]
+    },
+    {
+      "url": "https://gemini.google.com/library",
+      "title": "‎Google Gemini",
+      "actions": [
+        {
+          "label": "Skip to main content",
+          "category": "Other",
+          "role": "link",
+          "testid": null,
+          "href": null,
+          "selector": "*:has-text('Skip to main content')",
+          "path": "https://gemini.google.com/library",
+          "via": "page"
+        },
+        {
+          "label": "Upgrade",
+          "category": "Menu/More",
+          "role": "link",
+          "testid": "bard-g1-dynamic-upsell-menu-button",
+          "href": null,
+          "selector": "[data-test-id='bard-g1-dynamic-upsell-menu-button'], [data-testid='bard-g1-dynamic-upsell-menu-button']",
+          "path": "https://gemini.google.com/library",
+          "via": "page"
+        },
+        {
+          "label": "New chat",
+          "category": "Create/New",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/app",
+          "selector": "[aria-label='New chat']",
+          "path": "https://gemini.google.com/library",
+          "via": "page"
+        },
+        {
+          "label": "Search chats",
+          "category": "Search",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/search",
+          "selector": "[aria-label='Search chats']",
+          "path": "https://gemini.google.com/library",
+          "via": "page"
+        },
+        {
+          "label": "Images",
+          "category": "Other",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/images",
+          "selector": "[aria-label='Images']",
+          "path": "https://gemini.google.com/library",
+          "via": "page"
+        },
+        {
+          "label": "Library",
+          "category": "Other",
+          "role": "a",
+          "testid": null,
+          "href": "https://gemini.google.com/library",
+          "selector": "[aria-label='Library']",
+          "path": "https://gemini.google.com/library",
+          "via": "page"
+        },
+        {
+          "label": "Google Account: Ram (tester.1234.new@gmail.com)",
+          "category": "Create/New",
+          "role": "a",
+          "testid": null,
+          "href": "https://accounts.google.com/SignOutOptions?continue=https://gemini.google.com",
+          "selector": "[aria-label='Google Account: Ram (tester.1234.new@gmail.com)']",
+          "path": "https://gemini.google.com/library",
+          "via": "page"
+        },
+        {
+          "label": "Settings",
+          "category": "Settings",
+          "role": "button",
+          "testid": "mavatar-footer-settings-button",
+          "href": null,
+          "selector": "[data-test-id='mavatar-footer-settings-button'], [data-testid='mavatar-footer-settings-button']",
+          "path": "https://gemini.google.com/library",
+          "via": "page"
+        },
+        {
+          "label": "mobile-settings-soft-badge",
+          "category": "Settings",
+          "role": "xap-count-badge",
+          "testid": "mobile-settings-soft-badge",
+          "href": null,
+          "selector": "[data-test-id='mobile-settings-soft-badge'], [data-testid='mobile-settings-soft-badge']",
+          "path": "https://gemini.google.com/library",
+          "via": "page"
+        },
+        {
+          "label": "Preview or open this item. Title: Chemistry 101 Study Planne",
+          "category": "Other",
+          "role": "button",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Preview or open this item. Title: Chemistry 101 Study Planner']",
+          "path": "https://gemini.google.com/library",
+          "via": "page"
+        },
+        {
+          "label": "Preview or open this item. Title: Chemistry 101 Study Plan",
+          "category": "Other",
+          "role": "button",
+          "testid": null,
+          "href": null,
+          "selector": "[aria-label='Preview or open this item. Title: Chemistry 101 Study Plan']",
+          "path": "https://gemini.google.com/library",
+          "via": "page"
+        },
+        {
+          "label": "Open sidebar",
+          "category": "Navigation",
+          "role": "button",
+          "testid": "side-nav-sparkle-button",
+          "href": null,
+          "selector": "[data-test-id='side-nav-sparkle-button'], [data-testid='side-nav-sparkle-button']",
+          "path": "https://gemini.google.com/library -> open 'Upgrade'",
+          "via": "menu:Upgrade"
+        },
+        {
+          "label": "bard-upsell-menu-button-icon",
+          "category": "Menu/More",
+          "role": "img",
+          "testid": "bard-upsell-menu-button-icon",
+          "href": null,
+          "selector": "[data-test-id='bard-upsell-menu-button-icon'], [data-testid='bard-upsell-menu-button-icon']",
+          "path": "https://gemini.google.com/library -> open 'Upgrade'",
+          "via": "menu:Upgrade"
+        }
+      ]
+    }
+  ]
+}

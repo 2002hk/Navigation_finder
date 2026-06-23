@@ -1,0 +1,16 @@
+# Browser CDP profiles (browser session data)
+*_cdp_profile/
+www.*_cdp_profile/
+
+# Screenshots (usually large/unnecessary)
+*_screenshots/
+nav_screenshots/
+nav_discovery_screenshots/
+casb_xpath_screenshots/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Cursor editor
+.cursor/

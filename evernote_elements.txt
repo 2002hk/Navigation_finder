@@ -1,0 +1,49 @@
+# Visible interactive elements on https://www.evernote.com/client/web
+# Generated 2026-06-16T18:40:30.368344
+
+(a) Search
+(input) Search or ask a question...
+(button) Note
+(button) More actions
+(treeitem) Home
+(treeitem) Shortcuts
+(treeitem) Notes
+(button) Tasks
+(button) Files
+(button) Calendar
+(treeitem) Templates
+(treeitem) Notebooks
+(button) Expand Notebooks
+(button) Expand Tags
+(treeitem) Shared with me
+(button) Spaces
+(button) Expand Spaces
+(button) More
+(treeitem) More
+(button) Account
+(button) What's new
+(button) Upgrade
+[testid=qa-NAV_TOGGLE_COLLAPSE] (button) Click to collapse
+[testid=qa-HOME_COVER_CUSTOMIZE_BUTTON] (button) Customize
+(button) Notes
+(button) New Note
+(button) First Notebook
+Untitled
+Feb 5
+(button) Create new note
+(button) Scratch pad
+(button) Recently captured
+(button) Change filter type
+(button) Clip web content
+(switch) Background
+(button) Change
+(button) Reset
+(button) Open AI Assistant
+(button) Learn more
+(button) Try it now
+(button) Dismiss
+(button) Close
+(button) Toggle blocks, a new Header, AI Memory, and more—May Monthly
+(button) See all updates
+(button) Previous
+(button) Next
