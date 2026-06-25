@@ -686,11 +686,6 @@ def main():
     print(f"\nCASB AI Classifier — Phase 2")
     print("=" * 50)
     print(f"Input:     {input_path}")
-    print(f"Model:     {model} (local Ollama)")
-    print(f"Threshold: {args.threshold}  (entries below this → AI, above → skip)")
-    print(f"Mode:      {'force-all' if args.force_all else 'selective'}"
-          f"{' [dry-run]' if args.dry_run else ''}")
-    print()
 
     with open(input_path, encoding="utf-8") as f:
         report = json.load(f)
@@ -702,16 +697,22 @@ def main():
         print("No activities found in input JSON. Nothing to classify.")
         sys.exit(0)
 
-    print(f"App:        {app_domain}")
-    print(f"Activities: {len(activities)}")
-    print()
-
     # Set up Ollama
     model = None
     if not args.dry_run:
         model = setup_ollama()
     else:
         model = DEFAULT_MODEL  # For dry run display purposes
+
+    print(f"Model:     {model} (local Ollama)")
+    print(f"Threshold: {args.threshold}  (entries below this → AI, above → skip)")
+    print(f"Mode:      {'force-all' if args.force_all else 'selective'}"
+          f"{' [dry-run]' if args.dry_run else ''}")
+    print()
+
+    print(f"App:        {app_domain}")
+    print(f"Activities: {len(activities)}")
+    print()
 
     # Run classification
     report["_classifier_threshold"] = args.threshold
