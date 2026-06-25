@@ -18,7 +18,16 @@ import platform
 import subprocess
 import sys
 import time
-from pathlib import Path
+
+try:
+    from pathlib import Path
+except ImportError:
+    # Python 3.6 fallback
+    try:
+        from pathlib2 import Path
+    except ImportError:
+        print("ERROR: pathlib not available. Install pathlib2: pip install pathlib2")
+        sys.exit(1)
 
 import requests
 
@@ -35,7 +44,8 @@ def check_ollama_installed():
     """Check if Ollama CLI is available."""
     try:
         result = subprocess.run(["ollama", "--version"], 
-                              capture_output=True, text=True)
+                              stdout=subprocess.PIPE, stderr=subprocess.PIPE, 
+                              universal_newlines=True)
         return result.returncode == 0
     except FileNotFoundError:
         return False
@@ -105,8 +115,7 @@ def pull_model(model_name: str):
     
     try:
         # Use subprocess to show real-time progress
-        result = subprocess.run(["ollama", "pull", model_name], 
-                               text=True, capture_output=False)
+        result = subprocess.run(["ollama", "pull", model_name])
         return result.returncode == 0
     except Exception as e:
         print(f"ERROR downloading model: {e}")

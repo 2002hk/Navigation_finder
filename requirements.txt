@@ -1,19 +1,23 @@
 # CASB Website Crawler Dependencies
 # =================================
+# Compatible with Python 3.6+
 
 # Core web automation
-playwright>=1.40.0
+playwright>=1.20.0  # Python 3.6 compatible version
 asyncio-throttle>=1.0.2
 
 # HTTP requests for Ollama API
-requests>=2.31.0
+requests>=2.20.0  # Python 3.6 compatible version
+
+# Path handling for older Python (pathlib backport)
+pathlib2>=2.3.0; python_version<"3.7"
 
 # JSON and data processing (built-in, but listed for clarity)
-# json, re, os, sys, pathlib, urllib.parse, datetime, time, argparse
+# json, re, os, sys, urllib.parse, datetime, time, argparse
 
 # Optional: If you want to use Anthropic API as fallback
 # anthropic>=0.25.0
 
 # Development and testing
-pytest>=7.4.0
-pytest-asyncio>=0.21.0
+pytest>=6.0.0  # Python 3.6 compatible version
+pytest-asyncio>=0.18.0  # Python 3.6 compatible version

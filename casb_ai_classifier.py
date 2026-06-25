@@ -62,8 +62,17 @@ import re
 import sys
 import time
 from datetime import datetime
-from pathlib import Path
 from urllib.parse import urlparse
+
+try:
+    from pathlib import Path
+except ImportError:
+    # Python 3.6 fallback
+    try:
+        from pathlib2 import Path
+    except ImportError:
+        print("ERROR: pathlib not available. Install pathlib2: pip install pathlib2")
+        sys.exit(1)
 
 try:
     import requests
