@@ -48,7 +48,7 @@ RECOMMENDED_MODELS = [
     "phi3:medium",     # Smallest that works well
     "gemma2:9b",       # Google's model, good accuracy
 ]
-DEFAULT_MODEL = "phi3:medium"  # Smaller model for Colab
+DEFAULT_MODEL = "llama3.1:8b"  # Best balance for classification accuracy
 MAX_TOKENS = 512
 API_RETRY_ATTEMPTS = 3
 API_RETRY_DELAY_S = 2.0
@@ -376,9 +376,11 @@ def call_ollama(model: str, entry: dict) -> dict:
                 "prompt": full_prompt,
                 "stream": False,
                 "options": {
-                    "temperature": 0.1,
+                    "temperature": 0.1,  # Low for consistent classification
                     "top_p": 0.9,
                     "num_predict": MAX_TOKENS,
+                    "num_ctx": 2048,     # Optimized context for llama3.1:8b
+                    "num_thread": 8,     # Use multiple threads for speed
                 }
             }
             
@@ -509,9 +511,9 @@ def classify_activities(activities, model, threshold=0.75, force_all=False,
 
         enhanced.append(entry)
 
-        # Light rate limiting
-        if not dry_run and stats["sent_to_ai"] % 10 == 0:
-            time.sleep(0.5)
+        # Light rate limiting - reduce since you're getting fast processing
+        if not dry_run and stats["sent_to_ai"] % 20 == 0:
+            time.sleep(0.2)  # Reduced delay since llama3.1:8b is fast
 
     if verbose:
         print(f"\n  Summary: total={stats['total']} | "
